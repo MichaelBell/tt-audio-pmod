@@ -4,7 +4,7 @@ This Pmod is designed to play PWM audio from out[7] or bidir[7], while allowing 
 
 ## Credits
 
-Designed for Tiny Tapeout by RebelMike
+Designed for Tiny Tapeout by RebelMike with the help of the excellent Tiny Tapeout Discord community.
 
    Copyright 2024 Mike Bell
 
@@ -19,3 +19,5 @@ Designed for Tiny Tapeout by RebelMike
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+Image on the reverse is by [ArtRose on Pixabay](https://pixabay.com/vectors/musical-notes-music-smile-merry-6159007/).  Used under the [Pixabay Content License](https://pixabay.com/service/license-summary/)
