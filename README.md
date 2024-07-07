@@ -16,6 +16,10 @@ IO 7 on the second Pmod is pulled high, which allows compatibility with the [QSP
 
 The Pmod was designed in KiCad 8, here is the [schematic](tt-audio-pmod.pdf).
 
+## Example Tiny Tapeout project
+
+This [example project](https://github.com/MichaelBell/tt08-pwm-example) generates a PWM output sampling a sine wave of a configurable frequency.
+
 ## Simulation
 
 The frequency response of the design was simulated in ltspice:
