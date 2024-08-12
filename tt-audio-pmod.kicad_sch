@@ -5,8 +5,8 @@
 	(uuid "89d49a32-e6f3-4b1f-b94b-310b510a42d3")
 	(paper "A4")
 	(title_block
-		(title "Tiny Tapeout Audio PMOD")
-		(rev "1.0")
+		(title "${TITLE}")
+		(rev "${REVISION}")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G126"
@@ -3411,6 +3411,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2941578"
+			(at 76.2 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50e68992-5ac8-4ec0-b2e0-5b30ae4aa346")
 		)
@@ -3472,6 +3481,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1622"
 			(at 116.84 110.49 0)
 			(effects
 				(font
@@ -3613,6 +3631,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C22787"
+			(at 95.25 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9618c3ff-c490-437d-9ece-8e083d4bae46")
 		)
@@ -3673,6 +3700,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 175.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C21190"
+			(at 175.26 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3893,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Top_Bottom"
+		(property "Value" "Female header"
 			(at 157.48 43.18 0)
 			(effects
 				(font
@@ -3884,6 +3920,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C92269"
 			(at 156.21 52.07 0)
 			(effects
 				(font
@@ -4057,6 +4102,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 45.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7afd9761-3841-43d4-902b-ef403f13b061")
 		)
@@ -4117,6 +4171,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23179"
+			(at 205.74 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4255,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C492434"
+		(property "LCSC Part" "C60565"
 			(at 110.4438 68.0299 0)
 			(effects
 				(font
@@ -4298,6 +4361,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C16780"
+			(at 205.74 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e22b30a-f724-4218-bcc5-765252a7d3a2")
 		)
@@ -4360,6 +4432,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 31.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C15850"
 			(at 31.75 86.36 0)
 			(effects
 				(font
@@ -4436,6 +4517,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C124581"
+			(at 180.34 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1787c12a-fdc1-4353-af36-78530020548c")
 		)
@@ -4499,6 +4589,15 @@
 			)
 		)
 		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C842506"
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -4642,6 +4741,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23140"
+			(at 128.27 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,6 +4938,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2884998"
+			(at 240.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2588c3e1-a9bf-43cf-97d1-8114989c578e")
 		)
@@ -4902,6 +5019,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02957a63-2fa6-40ef-b488-1d49aaecb70a")
 		)
@@ -4963,6 +5089,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 139.7 110.49 0)
 			(effects
 				(font
@@ -5203,7 +5338,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "Male header"
 			(at 162.56 105.4099 0)
 			(effects
 				(font
@@ -5231,6 +5366,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49257"
 			(at 160.02 104.14 0)
 			(effects
 				(font

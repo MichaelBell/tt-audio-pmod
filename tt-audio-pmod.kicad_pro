@@ -131,7 +131,7 @@
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1016,
         "min_via_diameter": 0.508,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -671,7 +671,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "production/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -687,5 +687,8 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "REVISION": "v1.1",
+    "TITLE": "Tiny Tapeout Audio Pmod"
+  }
 }
